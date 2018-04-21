@@ -1,0 +1,21 @@
+{
+  "name": "SimpleCrowdSale",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/truffle test",
+    "develop": "./node_modules/.bin/truffle develop",
+    "lint": "solium -d contracts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "solium": "^1.1.6",
+    "truffle": "^4.1.7"
+  },
+  "dependencies": {
+    "zeppelin-solidity": "^1.8.0"
+  }
+}
